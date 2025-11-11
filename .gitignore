@@ -11,3 +11,10 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# OpenVINO cache
+cache/
+
+# Model files
+*.onnx
+*.pt
