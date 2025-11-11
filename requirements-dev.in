@@ -1,0 +1,5 @@
+# Base dependencies
+-c requirements.txt
+
+# Developer dependencies
+pip-tools

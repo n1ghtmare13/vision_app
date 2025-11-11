@@ -1,0 +1,6 @@
+# Main app requirements
+opencv-python
+openvino
+dearpygui
+boxmot
+numpy
