@@ -38,13 +38,20 @@ python -m venv venv
 ```
 *(On Windows, your terminal prompt should now start with `(venv)`).*
 
-### 3. Install Python Dependencies
+### 3. Configure Pip Version (Important!)
+For compatibility with our development tools (`pip-tools`), a specific version of `pip` is required.
+```powershell
+# This command will downgrade pip if necessary
+.\venv\Scripts\python.exe -m pip install "pip<25"
+```
+
+### 4. Install Python Dependencies
 This project uses `pip-tools` for precise dependency management. The following commands will install all necessary packages for running the application and for development.
 ```bash
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
-### 4. Run the Application
+### 5. Run the Application
 You are now ready to run the application. The required OpenVINO models (.xml and .bin) are already included in the repository.
 - **To run the GUI version (recommended):**
   ```bash
