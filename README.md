@@ -26,8 +26,8 @@ Follow these steps to set up the development environment.
 
 ### 1. Clone the Repository
 ```bash
-git clone [URL-OF-YOUR-REPOSITORY]
-cd [repository-folder-name]
+git clone https://github.com/n1ghtmare13/vision_app.git
+cd vision_app
 ```
 
 ### 2. Create and Activate a Virtual Environment
