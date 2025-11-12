@@ -14754,13 +14754,14 @@
 		<Runtime_version value="2025.3.0-19807-44526285f24-releases/2025/3" />
 		<conversion_parameters>
 			<is_python_object value="False" />
+			<output_model value="DIR\yolo11n_object365.xml" />
 		</conversion_parameters>
 		<framework>
 			<args value="{'batch': 1, 'half': False, 'dynamic': False, 'simplify': True, 'opset': 12, 'nms': False}" />
 			<author value="Ultralytics" />
 			<batch value="1" />
 			<channels value="3" />
-			<date value="2025-11-11T15:42:52.733328" />
+			<date value="2025-11-12T18:01:30.358506" />
 			<description value="Ultralytics YOLO11n model trained on /storage/object365/Objects365.yaml" />
 			<docs value="https://docs.ultralytics.com" />
 			<imgsz value="[640, 640]" />

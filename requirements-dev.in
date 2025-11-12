@@ -3,3 +3,7 @@
 
 # Developer dependencies
 pip-tools
+ultralytics
+onnx
+onnxslim
+onnxruntime
